@@ -14,7 +14,6 @@ function Presenca() {
       .then((res) => res.json())
       .then((data) => {
         setConfirmados(data);
-        console.log(confirmados);
       })
       .catch((err) => {
         console.log(err);
