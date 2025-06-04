@@ -95,7 +95,6 @@ function Formulario() {
             <select
               name="prato"
               id="prato"
-              required
               value={pratoSelecionado}
               onChange={(e) => setPratoSelecionado(e.target.value)}
             >
