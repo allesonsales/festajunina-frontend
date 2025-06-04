@@ -64,7 +64,7 @@ function Formulario() {
           return res.json();
         }
       })
-      .then((data) => {
+      .then(() => {
         confirmaEvento();
         setNome("");
         setPratoSelecionado("");
@@ -101,9 +101,7 @@ function Formulario() {
             >
               <option value="">Escolhe um trem gostoso</option>
               {pratos.sort().map((prato) => (
-                <option value={prato} onClick={!novoPrato}>
-                  {prato}
-                </option>
+                <option value={prato}>{prato}</option>
               ))}
             </select>
           </div>
