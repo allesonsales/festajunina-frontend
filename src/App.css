@@ -6,7 +6,7 @@
 
 #root {
   text-align: center;
-  background-image: url(../../../public/background.png);
+  background-image: url("/background.png");
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -47,7 +47,7 @@
 @media (min-width: 1024px) {
   #root {
     padding: 10rem;
-    background-image: url(../../../public/background2.png);
+    background-image: url("/background2.png");
     max-width: 100%;
     overflow-x: hidden;
   }
